@@ -29,7 +29,7 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 7.0.0">
+<meta name="generator" content="Hexo 5.4.2">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
 <link rel="alternate" href="/atom.xml" title="Personal Blog" type="application/atom+xml">
 </head>
@@ -453,6 +453,9 @@
         <hr class="clearfix">
 
         
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/libs/prism/prism.css">
+        
 
         
 
@@ -461,42 +464,55 @@
                 <p>当使用macOS命令行时，以下是一些常见的macOS命令：</p>
 <ol>
 <li><p><strong>ls</strong>: 列出当前目录中的文件和子目录。</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">ls</span></span><br><span class="line"><span class="built_in">ls</span> -l  <span class="comment"># 以长格式显示文件信息</span></span><br><span class="line"><span class="built_in">ls</span> -a  <span class="comment"># 显示所有文件，包括隐藏文件</span></span><br></pre></td></tr></tbody></table></figure>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">ls</span>
+<span class="token function">ls</span> <span class="token parameter variable">-l</span>  <span class="token comment"># 以长格式显示文件信息</span>
+<span class="token function">ls</span> <span class="token parameter variable">-a</span>  <span class="token comment"># 显示所有文件，包括隐藏文件</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 </li>
 <li><p><strong>cd</strong>: 切换当前目录。</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> &lt;目录路径&gt;</span><br><span class="line"><span class="built_in">cd</span> ..  <span class="comment"># 切换到上一级目录</span></span><br><span class="line"><span class="built_in">cd</span> ~   <span class="comment"># 切换到当前用户的主目录</span></span><br></pre></td></tr></tbody></table></figure>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> <span class="token operator">&lt;</span>目录路径<span class="token operator">&gt;</span>
+<span class="token builtin class-name">cd</span> <span class="token punctuation">..</span>  <span class="token comment"># 切换到上一级目录</span>
+<span class="token builtin class-name">cd</span> ~   <span class="token comment"># 切换到当前用户的主目录</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 </li>
 <li><p><strong>pwd</strong>: 显示当前工作目录的完整路径。</p>
 </li>
 <li><p><strong>mkdir</strong>: 创建新目录。</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> &lt;目录名&gt;</span><br></pre></td></tr></tbody></table></figure>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">mkdir</span> <span class="token operator">&lt;</span>目录名<span class="token operator">&gt;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 </li>
 <li><p><strong>rm</strong>: 删除文件或目录。</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">rm</span> &lt;文件名&gt;</span><br><span class="line"><span class="built_in">rm</span> -r &lt;目录名&gt;  <span class="comment"># 递归删除目录及其内容</span></span><br><span class="line"><span class="built_in">rm</span> -f &lt;文件名&gt;  <span class="comment"># 强制删除文件，不进行确认提示</span></span><br></pre></td></tr></tbody></table></figure>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">rm</span> <span class="token operator">&lt;</span>文件名<span class="token operator">&gt;</span>
+<span class="token function">rm</span> <span class="token parameter variable">-r</span> <span class="token operator">&lt;</span>目录名<span class="token operator">&gt;</span>  <span class="token comment"># 递归删除目录及其内容</span>
+<span class="token function">rm</span> <span class="token parameter variable">-f</span> <span class="token operator">&lt;</span>文件名<span class="token operator">&gt;</span>  <span class="token comment"># 强制删除文件，不进行确认提示</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 </li>
 <li><p><strong>cp</strong>: 复制文件或目录。</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cp</span> &lt;源文件&gt; &lt;目标路径&gt;</span><br><span class="line"><span class="built_in">cp</span> -r &lt;源目录&gt; &lt;目标路径&gt;  <span class="comment"># 复制目录及其内容</span></span><br></pre></td></tr></tbody></table></figure>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">cp</span> <span class="token operator">&lt;</span>源文件<span class="token operator">&gt;</span> <span class="token operator">&lt;</span>目标路径<span class="token operator">&gt;</span>
+<span class="token function">cp</span> <span class="token parameter variable">-r</span> <span class="token operator">&lt;</span>源目录<span class="token operator">&gt;</span> <span class="token operator">&lt;</span>目标路径<span class="token operator">&gt;</span>  <span class="token comment"># 复制目录及其内容</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 </li>
 <li><p><strong>mv</strong>: 移动文件或目录，也可以用来重命名文件或目录。</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">mv</span> &lt;源文件/目录&gt; &lt;目标路径&gt;</span><br><span class="line"><span class="built_in">mv</span> &lt;旧文件名&gt; &lt;新文件名&gt;  <span class="comment"># 重命名文件</span></span><br></pre></td></tr></tbody></table></figure>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">mv</span> <span class="token operator">&lt;</span>源文件/目录<span class="token operator">&gt;</span> <span class="token operator">&lt;</span>目标路径<span class="token operator">&gt;</span>
+<span class="token function">mv</span> <span class="token operator">&lt;</span>旧文件名<span class="token operator">&gt;</span> <span class="token operator">&lt;</span>新文件名<span class="token operator">&gt;</span>  <span class="token comment"># 重命名文件</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 </li>
 <li><p><strong>touch</strong>: 创建新文件或更新现有文件的时间戳。</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">touch</span> &lt;文件名&gt;</span><br></pre></td></tr></tbody></table></figure>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">touch</span> <span class="token operator">&lt;</span>文件名<span class="token operator">&gt;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 </li>
 <li><p><strong>cat</strong>: 查看文件内容。</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cat</span> &lt;文件名&gt;</span><br></pre></td></tr></tbody></table></figure>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">cat</span> <span class="token operator">&lt;</span>文件名<span class="token operator">&gt;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 </li>
 <li><p><strong>grep</strong>: 在文件中搜索指定的字符串模式。</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">grep &lt;模式&gt; &lt;文件名&gt;</span><br><span class="line">grep -i &lt;模式&gt; &lt;文件名&gt;  <span class="comment"># 忽略大小写进行搜索</span></span><br></pre></td></tr></tbody></table></figure>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">grep</span> <span class="token operator">&lt;</span>模式<span class="token operator">&gt;</span> <span class="token operator">&lt;</span>文件名<span class="token operator">&gt;</span>
+<span class="token function">grep</span> <span class="token parameter variable">-i</span> <span class="token operator">&lt;</span>模式<span class="token operator">&gt;</span> <span class="token operator">&lt;</span>文件名<span class="token operator">&gt;</span>  <span class="token comment"># 忽略大小写进行搜索</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 </li>
 <li><p><strong>chmod</strong>: 修改文件权限。</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">chmod</span> &lt;权限&gt; &lt;文件名&gt;</span><br><span class="line"><span class="built_in">chmod</span> +x &lt;文件名&gt;  <span class="comment"># 添加可执行权限</span></span><br><span class="line"><span class="built_in">chmod</span> -R &lt;权限&gt; &lt;目录名&gt;  <span class="comment"># 递归修改目录及其内容的权限</span></span><br></pre></td></tr></tbody></table></figure>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">chmod</span> <span class="token operator">&lt;</span>权限<span class="token operator">&gt;</span> <span class="token operator">&lt;</span>文件名<span class="token operator">&gt;</span>
+<span class="token function">chmod</span> +x <span class="token operator">&lt;</span>文件名<span class="token operator">&gt;</span>  <span class="token comment"># 添加可执行权限</span>
+<span class="token function">chmod</span> <span class="token parameter variable">-R</span> <span class="token operator">&lt;</span>权限<span class="token operator">&gt;</span> <span class="token operator">&lt;</span>目录名<span class="token operator">&gt;</span>  <span class="token comment"># 递归修改目录及其内容的权限</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 </li>
 <li><p><strong>ps</strong>: 显示当前进程的状态。</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ps</span><br><span class="line">ps aux  <span class="comment"># 显示所有进程的详细信息</span></span><br></pre></td></tr></tbody></table></figure>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">ps</span>
+<span class="token function">ps</span> aux  <span class="token comment"># 显示所有进程的详细信息</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 </li>
 <li><p><strong>kill</strong>: 终止进程。</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">kill</span> &lt;进程ID&gt;</span><br><span class="line">killall &lt;进程名称&gt;  <span class="comment"># 终止指定名称的所有进程</span></span><br></pre></td></tr></tbody></table></figure>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">kill</span> <span class="token operator">&lt;</span>进程ID<span class="token operator">&gt;</span>
+<span class="token function">killall</span> <span class="token operator">&lt;</span>进程名称<span class="token operator">&gt;</span>  <span class="token comment"># 终止指定名称的所有进程</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 </li>
 <li><p><strong>top</strong>: 动态查看系统进程和资源占用情况。</p>
 </li>
@@ -505,7 +521,7 @@
 <li><p><strong>ping</strong>: 向指定地址发送网络数据包，用于测试网络连接。</p>
 </li>
 <li><p><strong>ssh</strong>: 使用SSH协议连接到远程服务器或主机。</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh &lt;用户名&gt;@&lt;远程主机IP&gt;</span><br></pre></td></tr></tbody></table></figure></li>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">ssh</span> <span class="token operator">&lt;</span>用户名<span class="token operator">&gt;</span>@<span class="token operator">&lt;</span>远程主机IP<span class="token operator">&gt;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
 </ol>
 <p>这些命令只是macOS命令行中的一小部分，但它们是最常用的。你可以使用<code>man</code>命令来查看更详细的命令说明和用法，例如<code>man ls</code>会显示有关<code>ls</code>命令的帮助信息。</p>
 
