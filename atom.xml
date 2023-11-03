@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Personal Blog</title>
+  
+  <subtitle>Peizhen Zheng</subtitle>
+  <link href="https://pzheng460.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://pzheng460.github.io/"/>
+  <updated>2023-11-03T04:02:38.812Z</updated>
+  <id>https://pzheng460.github.io/</id>
+  
+  <author>
+    <name>Peizhen Zheng</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Git教程</title>
+    <link href="https://pzheng460.github.io/2023/11/02/git-jiao-cheng/"/>
+    <id>https://pzheng460.github.io/2023/11/02/git-jiao-cheng/</id>
+    <published>2023-11-03T03:43:25.000Z</published>
+    <updated>2023-11-03T04:02:38.812Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;偶然看到这个很棒的教程推荐给大家，大家可以看一下，另外还有一个不错的 git 入门网站，也推荐给大家，可以搭配使用。&lt;/p&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Study Notes" scheme="https://pzheng460.github.io/categories/Study-Notes/"/>
+    
+    
+    <category term="Git" scheme="https://pzheng460.github.io/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>日语助词语法</title>
+    <link href="https://pzheng460.github.io/2023/11/02/ri-yu-zhu-ci-yu-fa/"/>
+    <id>https://pzheng460.github.io/2023/11/02/ri-yu-zhu-ci-yu-fa/</id>
+    <published>2023-11-03T03:43:25.000Z</published>
+    <updated>2023-11-03T03:26:14.331Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;日语助词语法&quot;&gt;&lt;a href=&quot;#日语助词语法&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Study Notes" scheme="https://pzheng460.github.io/categories/Study-Notes/"/>
+    
+    
+    <category term="日本語" scheme="https://pzheng460.github.io/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>常见macOS命令</title>
+    <link href="https://pzheng460.github.io/2023/11/02/chang-jian-macos-ming-ling/"/>
+    <id>https://pzheng460.github.io/2023/11/02/chang-jian-macos-ming-ling/</id>
+    <published>2023-11-03T03:42:25.000Z</published>
+    <updated>2023-11-03T03:28:08.868Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;当使用macOS命令行时，以下是一些常见的macOS命令：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;ls&lt;/strong&gt;: 列出当前目录中的文件和子目录。&lt;/p&gt;
+&lt;figure class=&quot;highlight</summary>
+        
+      
+    
+    
+    
+    <category term="Study Notes" scheme="https://pzheng460.github.io/categories/Study-Notes/"/>
+    
+    
+    <category term="Mac" scheme="https://pzheng460.github.io/tags/Mac/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>日语名词动词形容词变形</title>
+    <link href="https://pzheng460.github.io/2023/11/02/ri-yu-ming-ci-dong-ci-xing-rong-ci-bian-xing/"/>
+    <id>https://pzheng460.github.io/2023/11/02/ri-yu-ming-ci-dong-ci-xing-rong-ci-bian-xing/</id>
+    <published>2023-11-03T03:41:25.000Z</published>
+    <updated>2023-11-03T03:26:53.777Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;时态&quot;&gt;&lt;a href=&quot;#时态&quot; class=&quot;headerlink&quot; title=&quot;时态&quot;&gt;&lt;/a&gt;时态&lt;/h1&gt;&lt;h2 id=&quot;名词&quot;&gt;&lt;a href=&quot;#名词&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Study Notes" scheme="https://pzheng460.github.io/categories/Study-Notes/"/>
+    
+    
+    <category term="日本語" scheme="https://pzheng460.github.io/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>日语音调和单词规律</title>
+    <link href="https://pzheng460.github.io/2023/11/02/ri-yu-yin-diao-he-dan-ci-gui-lu/"/>
+    <id>https://pzheng460.github.io/2023/11/02/ri-yu-yin-diao-he-dan-ci-gui-lu/</id>
+    <published>2023-11-03T02:43:29.000Z</published>
+    <updated>2023-11-03T03:27:51.874Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;日语音调&quot;&gt;&lt;a href=&quot;#日语音调&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Study Notes" scheme="https://pzheng460.github.io/categories/Study-Notes/"/>
+    
+    
+    <category term="日本語" scheme="https://pzheng460.github.io/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>标日语法总结</title>
+    <link href="https://pzheng460.github.io/2023/11/02/biao-ri-yu-fa-zong-jie/"/>
+    <id>https://pzheng460.github.io/2023/11/02/biao-ri-yu-fa-zong-jie/</id>
+    <published>2023-11-03T02:43:25.000Z</published>
+    <updated>2023-11-03T03:27:15.728Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;日语语法汇总-标准日本语初级、中级&quot;&gt;&lt;a href=&quot;#日语语法汇总-标准日本语初级、中级&quot; class=&quot;headerlink&quot; title=&quot;日语语法汇总 - 标准日本语初级、中级&quot;&gt;&lt;/a&gt;日语语法汇总 - 标准日本语初级、中级&lt;/h1&gt;&lt;h1</summary>
+        
+      
+    
+    
+    
+    <category term="Study Notes" scheme="https://pzheng460.github.io/categories/Study-Notes/"/>
+    
+    
+    <category term="日本語" scheme="https://pzheng460.github.io/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据结构与算法</title>
+    <link href="https://pzheng460.github.io/2023/11/02/shu-ju-jie-gou-yu-suan-fa/"/>
+    <id>https://pzheng460.github.io/2023/11/02/shu-ju-jie-gou-yu-suan-fa/</id>
+    <published>2023-11-03T00:43:25.000Z</published>
+    <updated>2023-11-03T04:50:11.308Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;数据结构与算法&quot;&gt;&lt;a href=&quot;#数据结构与算法&quot; class=&quot;headerlink&quot; title=&quot;数据结构与算法&quot;&gt;&lt;/a&gt;数据结构与算法&lt;/h1&gt;&lt;h2 id=&quot;数组-Array&quot;&gt;&lt;a href=&quot;#数组-Array&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Study Notes" scheme="https://pzheng460.github.io/categories/Study-Notes/"/>
+    
+    
+    <category term="Data Structure" scheme="https://pzheng460.github.io/tags/Data-Structure/"/>
+    
+    <category term="Algorithm" scheme="https://pzheng460.github.io/tags/Algorithm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://pzheng460.github.io/2023/11/02/hello-world/"/>
+    <id>https://pzheng460.github.io/2023/11/02/hello-world/</id>
+    <published>2023-11-03T00:40:25.000Z</published>
+    <updated>2023-11-03T03:19:49.080Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="Diary" scheme="https://pzheng460.github.io/categories/Diary/"/>
+    
+    
+    <category term="Daily Report" scheme="https://pzheng460.github.io/tags/Daily-Report/"/>
+    
+  </entry>
+  
+</feed>
