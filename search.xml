@@ -4,6 +4,68 @@
   
     
     <entry>
+      <title>Game-ranking-recommender-website</title>
+      <link href="/2023/11/09/game-ranking-recommender-website/"/>
+      <url>/2023/11/09/game-ranking-recommender-website/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Game-ranking-recommender-website"><a href="#Game-ranking-recommender-website" class="headerlink" title="Game-ranking-recommender-website"></a><strong>Game-ranking-recommender-website</strong></h1><p><img src="/Game-ranking-recommender-website/img.png" alt="img.png"></p><p><img src="/Game-ranking-recommender-website/img_1.png" alt="img_1.png"></p><h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>Final Project for CSE6242, where users can see game trending in over 30 countries and get new games recommended by our ML system based on game history. The website is developed based on React and Java(Spring Boot).</p><p>Display in video: <a href="https://www.youtube.com/watch?v=PJvuOUT4IBE&amp;list=PLg4DKB9caENBPtl8Q6qqIOMZJsnfPmCYq&amp;index=1">https://www.youtube.com/watch?v=PJvuOUT4IBE&amp;list=PLg4DKB9caENBPtl8Q6qqIOMZJsnfPmCYq&amp;index=1</a></p><p>Github repository: <a href="https://github.com/RICH-LIU-RUIQI/Game-ranking-recommender-website">RICH-LIU-RUIQI/Game-ranking-recommender-website: Final Project for CSE6242. (github.com)</a></p><h2 id="Project-Description"><a href="#Project-Description" class="headerlink" title="Project Description"></a>Project Description</h2><ul><li>Developed a web application to visualize game rankings and provide personalized game recommendation  </li><li>Addressed the CORS issue by implementing Axios and Proxy in the separate backend and frontend systems  </li><li>Improved the recommendation’s progress bar using WebSockets to display real-time progress updates  </li><li>Optimized the recommendation system’s performance using local sensitivity hashing, resulting in an 80% reduction in storage requirements and 43% reduction in processing time.</li></ul><h2 id="Technologies"><a href="#Technologies" class="headerlink" title="Technologies"></a>Technologies</h2><p>React, HTML, CSS, D3.js, Python, Java(SpringBoot)</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Projects </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JavaScript </tag>
+            
+            <tag> TypeScript </tag>
+            
+            <tag> Java </tag>
+            
+            <tag> Python </tag>
+            
+            <tag> React </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>College Carpooling Application/Unipool</title>
+      <link href="/2023/11/09/college-carpooling-application/"/>
+      <url>/2023/11/09/college-carpooling-application/</url>
+      
+        <content type="html"><![CDATA[<h1 id="College-Carpooling-Application-Unipool"><a href="#College-Carpooling-Application-Unipool" class="headerlink" title="College Carpooling Application/Unipool"></a>College Carpooling Application/Unipool</h1><p><img src="/College%20Carpooling%20Application/image-20231109151857190-9561152.png" alt="image-20231109151857190"></p><p>We built a campus-centered platform to facilitate the formation of rideshare groups among students. Users can then call rideshare services of their choice after meeting at a designated time and pickup location. Our goal is to provide college students with an efficient way to connect and share rides, leading to lower transportation costs compared to existing solutions. Additionally, we will include features that prioritize user safety and improve their overall experience. </p><h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>This is a CS 4261 course project.</p><p>Github repository: <a href="https://github.gatech.edu/lwang684/unipool">lwang684/unipool (gatech.edu)</a></p><h2 id="Project-Description"><a href="#Project-Description" class="headerlink" title="Project Description"></a>Project Description</h2><ul><li>Developed a mobile App for college students to efficiently find and join carpooling trips or post their trips.</li><li>Implemented React Hooks for data flow between screens and completed role-based access control.</li><li>Built a user profile system on Firebase for authentication, management, and rating of other users.</li></ul><p><img src="/College%20Carpooling%20Application/clip_image001.png" alt="A picture containing graphical user interface  Description automatically generated"><img src="/College%20Carpooling%20Application/clip_image002.png" alt="Graphical user interface, text, application  Description automatically generated"><img src="/College%20Carpooling%20Application/clip_image003.png" alt="Graphical user interface, text, application  Description automatically generated"><img src="/College%20Carpooling%20Application/clip_image004.png" alt="Graphical user interface, text, application, chat or text message  Description automatically generated"><img src="/College%20Carpooling%20Application/clip_image005.png" alt="Graphical user interface, application, chat or text message  Description automatically generated"><img src="/College%20Carpooling%20Application/clip_image006.png" alt="Graphical user interface, text, application, chat or text message  Description automatically generated"></p><h2 id="Technologies"><a href="#Technologies" class="headerlink" title="Technologies"></a>Technologies</h2><p>Figma, React Native, TypeScript, JavaScript(ES6), Goolge Firebase.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Projects </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JavaScript </tag>
+            
+            <tag> TypeScript </tag>
+            
+            <tag> React Native </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Git教程</title>
       <link href="/2023/11/02/git-jiao-cheng/"/>
       <url>/2023/11/02/git-jiao-cheng/</url>
