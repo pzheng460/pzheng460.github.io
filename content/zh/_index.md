@@ -39,12 +39,12 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: Biography
+      title: 个人介绍
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
   - block: skills
     content:
-      title: Skills
+      title: 专业技能
       text: ''
       # Choose a user to display skills from (a folder name within `content/authors/`)
       username: admin
@@ -52,7 +52,7 @@ sections:
       columns: '1'
   - block: experience
     content:
-      title: Experience
+      title: 经历
       # Date format for experience
       #   Refer to https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -88,7 +88,7 @@ sections:
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
+      title: '成就'
       subtitle:
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -130,7 +130,7 @@ sections:
   - block: collection
     id: posts
     content:
-      title: Recent Posts
+      title: 最新博客
       subtitle: ''
       text: ''
       # Choose how many pages you would like to display (0 = all pages)
@@ -157,7 +157,7 @@ sections:
   - block: portfolio
     id: projects
     content:
-      title: Projects
+      title: 项目
       filters:
         folders:
           - project
@@ -183,7 +183,7 @@ sections:
       flip_alt_rows: false
   - block: markdown
     content:
-      title: Gallery
+      title: 画廊
       subtitle: ''
       text: |-
         {{< gallery album="demo" >}}
@@ -192,7 +192,7 @@ sections:
   - block: collection
     id: featured
     content:
-      title: Featured Publications
+      title: 代表论文
       filters:
         folders:
           - publication
@@ -202,7 +202,7 @@ sections:
       view: card
   - block: collection
     content:
-      title: Recent Publications
+      title: 最新发表论文
       text: |-
         {{% callout note %}}
         Quickly discover relevant content by [filtering publications](./publication/).
@@ -214,16 +214,16 @@ sections:
     design:
       columns: '2'
       view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      columns: '2'
-      view: compact
+  # - block: collection
+  #   id: talks
+  #   content:
+  #     title: Recent & Upcoming Talks
+  #     filters:
+  #       folders:
+  #         - event
+  #   design:
+  #     columns: '2'
+  #     view: compact
   - block: tag_cloud
     content:
       title: Popular Topics

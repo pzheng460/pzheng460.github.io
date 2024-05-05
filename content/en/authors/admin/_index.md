@@ -120,5 +120,5 @@ social:
 highlight_name: true
 ---
 
-I am currently pursuing my master's degree in CSE at Georgia Institute of Technology. If you're looking for a dedicated and talented software developer, I would be willing to connect and explore how we can develop outstanding software together.
+I received my master's degree in CSE at Georgia Institute of Technology. If you're looking for a dedicated and talented software developer, I would be willing to connect and explore how we can develop outstanding software together.
 {style="text-align: justify;"}

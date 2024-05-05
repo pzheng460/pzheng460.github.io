@@ -21,35 +21,35 @@ role: Graduate Research Assistant
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Georgia Institute of Technology
+  - name: 佐治亚理工学院
     url: https://www.gatech.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include all fields of computer graphics.
+bio: 我感兴趣的研究领域是计算机图形学。
 
 # Interests to show in About widget
 interests:
-  - Computer Graphics
-  - Fluid Simulation
-  - Rendering
+  - 计算机图形学
+  - 流体模拟
+  - 渲染
 
 # Education to show in About widget
 education:
   courses:
-    - course: MS in Computational Science and Engineering
-      institution: Georgia Institute of Technology
+    - course: 计算机科学与工程 硕士
+      institution: 佐治亚理工学院
       year: 2024
-    - course: BSc in Civil and Environmental Engineering
-      institution: University of Illinois Urbana-Champaign
+    - course: 土木工程 工学学士
+      institution: 伊利诺伊大学香槟分校
       year: 2022
-    - course: BSc in Civil and Environmental Engineering
-      institution: Zhejiang University
+    - course: 土木工程 工学学士
+      institution: 浙江大学
       year: 2022
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 skills:
-  - name: Technical
+  - name: 技术
     items:
       - name: Python
         description: ''
@@ -66,21 +66,21 @@ skills:
         percent: 40
         icon: java
         icon_pack: fab
-  - name: Hobbies
+  - name: 兴趣
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Console Game
+      - name: 主机游戏
         description: ''
         percent: 60
         icon: gamepad
         icon_pack: fas
-      - name: Music
+      - name: 音乐
         description: ''
         percent: 100
         icon: music
         icon_pack: fas
-      - name: History
+      - name: 历史
         description: ''
         percent: 80
         icon: book
@@ -120,5 +120,5 @@ social:
 highlight_name: true
 ---
 
-I am currently pursuing my master's degree in CSE at Georgia Institute of Technology. If you're looking for a dedicated and talented software developer, I would be willing to connect and explore how we can develop outstanding software together.
+我在佐治亚理工学院获得计算机科学与工程硕士，此前在浙江大学ZJUI学院获得浙江大学和伊利诺伊大学香槟分校土木工程双学士学位。目前的主要研究方向是流体模拟。
 {style="text-align: justify;"}
