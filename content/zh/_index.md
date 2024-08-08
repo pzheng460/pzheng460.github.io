@@ -70,11 +70,12 @@ sections:
           date_start: '2023-05-15'
           date_end: '2023-08-15'
           description: |2-
-              Responsibilities include:
+              职责包括:
 
-              * Analysing
-              * Modelling
-              * Deploying
+              * 重新设计了测试夹具，并利用C#和.NET开发了具有客户端-服务器架构的新测试WinForm软件。
+              * 利用该软件实现电压测试、电流测试、功率测试、转速测试、结果检索，并实现与MySQL数据库的无缝数据集成。
+              * 集成了MODBUS通信协议用于设备测试，并利用XML文件进行配置记录和管理。
+              * 实现了多线程方法，使用两个独立控制台同时控制四个设备，从而使效率显著提高了50%。
 
         - title: CAD工程师实习
           company: 浙江大学建筑设计研究院有限公司
@@ -83,7 +84,13 @@ sections:
           location: 杭州
           date_start: '2020-07-01'
           date_end: '2020-08-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          description: |2-
+              职责包括:
+
+              * 在建筑设计工作流程中使用CAD和PKPM。
+              * 与高级团队成员密切合作，迭代设计客户项目，适应不断变化的客户需求。
+              * 协助开发工程图纸，为设计方案的具体执行做出贡献。
+
     design:
       columns: '2'
   # - block: accomplishments

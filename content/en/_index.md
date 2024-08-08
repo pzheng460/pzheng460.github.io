@@ -85,12 +85,12 @@ sections:
           date_start: '2020-07-01'
           date_end: '2020-08-31'
           description: |2-
-              职责包括:
+              Responsibility include:
 
-              * 在建筑设计工作流程中，锻炼CAD和PKPM软件熟练度。
-              * 与高级团队成员密切合作，参与客户建筑项目的迭代设计过程，适应不断变化的客户需求。
-              * 协助开发工程图纸，为设计方案的详细执行做出贡献。
-              * 应对将初期项目规格与客户新需求整合的挑战，确保设计结果具有连贯性和响应性。
+              * Utilized CAD and PKPM in architectural design workflows.
+              * Collaborated closely with senior team members to iterate on architectural projects, adapting to evolving client needs.
+              * Assisted in developing engineering drawings, contributing to the detailed execution of design plans.
+
               
     design:
       columns: '2'
@@ -247,13 +247,13 @@ sections:
         If you would like to contact me, please fill out the following information.
       # Contact (add or remove contact options as necessary)
       email: pzheng460@gmail.com
-      phone: 404 493 74 77
+      phone: 404 493 7477
       appointment_url: 'https://calendly.com'
       address:
-        street: 699 Spring Street
+        street: 950 Marietta Street, NW
         city: Atlanta
         region: GA
-        postcode: '30308'
+        postcode: '30318'
         country: United States
         country_code: US
       # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
