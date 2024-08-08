@@ -180,6 +180,10 @@ sections:
       buttons:
         - name: All
           tag: '*'
+        - name: OpenGL
+          tag: OpenGL
+        - name: Rendering
+          tag: Rendering
         - name: Deep Learning
           tag: Deep Learning
         - name: Other

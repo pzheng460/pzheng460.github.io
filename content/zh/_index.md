@@ -179,9 +179,13 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
+        - name: OpenGL
+          tag: OpenGL
+        - name: 渲染
+          tag: Rendering
+        - name: 深度学习
           tag: Deep Learning
-        - name: Other
+        - name: 其他
           tag: Demo
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
@@ -246,13 +250,13 @@ sections:
         If you would like to contact me, please fill out the following information.
       # Contact (add or remove contact options as necessary)
       email: pzheng460@gmail.com
-      phone: 404 493 74 77
+      phone: 404 493 7477
       appointment_url: 'https://calendly.com'
       address:
-        street: 699 Spring Street
+        street: 950 Marietta Street, NW
         city: Atlanta
         region: GA
-        postcode: '30308'
+        postcode: '30318'
         country: United States
         country_code: US
       # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
