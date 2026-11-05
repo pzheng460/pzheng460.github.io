@@ -1,0 +1,12 @@
+// Keep the Academic theme; improve density and long-title wrapping.
+.home-section { padding-top: 4rem; padding-bottom: 4rem; }
+.home-section .article-title, .pub-list-item { overflow-wrap: anywhere; }
+#about .article-style { text-align: left; }
+#skills .article-style p { margin-bottom: 1rem; }
+#skills .article-style strong { color: #1e3a70; }
+.dark #skills .article-style strong { color: #a9c8ff; }
+.article-style { line-height: 1.75; }
+@media (max-width: 767px) {
+  .home-section { padding-top: 2.5rem; padding-bottom: 2.5rem; }
+  .section-heading h1 { font-size: 1.85rem; }
+}
