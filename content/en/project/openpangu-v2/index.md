@@ -1,6 +1,6 @@
 ---
 {
-  "title": "openPangu-v2: MTP architecture and full-graph inference",
+  "title": "openPangu-v2: pretraining architecture selection and MTP inference optimization",
   "date": "2025-08-01T00:00:00Z",
   "summary": "Core contributions to three-head MTP selection, 2048-token sliding windows and full-graph speculative execution for long contexts.",
   "tags": [

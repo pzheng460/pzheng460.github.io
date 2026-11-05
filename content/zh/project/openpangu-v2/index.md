@@ -1,6 +1,6 @@
 ---
 {
-  "title": "openPangu-v2：先导选型与 MTP 推理优化",
+  "title": "openPangu-v2 预训练架构选型与 MTP 推理优化",
   "date": "2025-08-01T00:00:00Z",
   "summary": "深度参与三头 MTP 与 2048 滑窗选型、多 MTP 层调用和全图推理，为长上下文提供高效的自投机解码路径。",
   "tags": [
