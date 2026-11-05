@@ -25,7 +25,7 @@
             "location": "Shanghai",
             "date_start": "2025-02-01",
             "date_end": "",
-            "description": "Computational Mathematics Group, Theory Research Department (Yuwei Fan).\n\nGrade 15; **A+** performance rating in my first year. Work on inference engines, MTP, communication optimization and pretraining data infrastructure."
+            "description": "Computational Mathematics Group, Theory Research Department (Yuwei Fan).\n\nWork on inference engines, MTP, communication optimization and pretraining data infrastructure."
           }
         ]
       },
